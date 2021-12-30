@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -6,14 +11,17 @@ local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
 
+--Properties:
 
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
-Frame.Position = UDim2.new(0, 0, 0.693520129, 0)
+Frame.Position = UDim2.new(0, 0, 0.748196363, 0)
 Frame.Size = UDim2.new(0, 228, 0, 175)
+Frame.Active = true
+Frame.Draggable = true
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
